@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2f30664b.css",
+    "main.js": "/static/js/main.af738818.js",
+    "static/js/787.142da1d4.chunk.js": "/static/js/787.142da1d4.chunk.js",
+    "static/media/pexels_videos_1409899 (2160p).mp4": "/static/media/pexels_videos_1409899 (2160p).204282fce0a2ae1b1041.mp4",
+    "static/media/banner.png": "/static/media/banner.84825abc235e8610aff3.png",
+    "static/media/banner-2.png": "/static/media/banner-2.fcf9483005173fc38ef4.png",
+    "static/media/dubai.png": "/static/media/dubai.5d3877faca87f7564f33.png",
+    "static/media/new-delhi.png": "/static/media/new-delhi.97f4ef96618ba67a195d.png",
+    "static/media/paris.png": "/static/media/paris.10ad821700eecaacec10.png",
+    "static/media/new-york.png": "/static/media/new-york.0e5084a7905113ad9c41.png",
+    "static/media/image-2.png": "/static/media/image-2.9be229691ed1c8d145a9.png",
+    "static/media/image-4.png": "/static/media/image-4.25d3deb975c1ae9f43ef.png",
+    "static/media/image-3.png": "/static/media/image-3.f67aa19f70e198219688.png",
+    "static/media/image-5.png": "/static/media/image-5.4117bf597b51853160da.png",
+    "static/media/image-1.png": "/static/media/image-1.1a51d80f72475ddaf25f.png",
+    "index.html": "/index.html",
+    "main.2f30664b.css.map": "/static/css/main.2f30664b.css.map",
+    "main.af738818.js.map": "/static/js/main.af738818.js.map",
+    "787.142da1d4.chunk.js.map": "/static/js/787.142da1d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f30664b.css",
+    "static/js/main.af738818.js"
+  ]
+}

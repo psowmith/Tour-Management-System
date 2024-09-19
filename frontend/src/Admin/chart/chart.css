@@ -1,0 +1,22 @@
+.chart{
+    margin: 20px;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 11px -1px #000000; 
+    box-shadow: 0px 0px 11px -1px #000000;
+}
+.chartTitle{
+    margin-bottom: 20px;
+}
+/* .chartContainer {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+.chart1{
+    width: 800px;
+    height: 400px;
+    position: relative;
+}
+.chart2{
+    transform: translate(-20%,-100%);
+} */

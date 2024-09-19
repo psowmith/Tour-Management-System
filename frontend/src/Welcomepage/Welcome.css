@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@media screen and (min-width:674px){
+  svg {
+    font-family: cursive;
+    position: absolute; 
+    width:70%;
+    height:30% ;
+    transform: translate(20%,100%); 
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s ;
+    text-align: center;
+    stroke-width: 2;
+    stroke: #295e4e;
+    font-size: 140px;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 5;
+    }
+    70%  {fill: rgba(146, 179, 122, 0); stroke: rgba(54,95,160,1); }
+    80%  {fill: rgba(156, 177, 140, 0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+    100% {
+      fill: rgb(144, 159, 173); stroke: rgb(99, 142, 161); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
+  /* Welcome.css */
+
+/* Styles for the container div */
+.wel {
+  position: absolute;
+  height: 100vh; 
+  width: 100%;
+  padding: 0%;
+}
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.nav {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  background-color: rgba(50, 49, 49, 0.5); 
+  color: white;
+  margin-left: 0%;
+  margin-bottom: 5%;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(250, 247, 247);
+  font-family: Satisfy;
+  margin-left: 0%;
+  margin-right: 10vh;
+}
+
+.navh1 {
+  cursor: pointer;
+  position: relative;
+  font-family: cursive;
+}
+.navh1:hover{
+  background-color: whitesmoke;
+  color:black;
+  border-radius: 10%;
+  border:3px solid black;
+}
+
+.navh1div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+  border-radius: 10% 0% 10% 0%;
+  border:3px solid white;
+  margin-top: 2vh;
+}
+
+.navh1div p {
+  cursor: pointer;
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+
+.navh11 {
+  cursor: pointer;
+  font-family: cursive;
+  justify-content: space-between;
+}
+.navh11:hover{
+  background-color: whitesmoke;
+  color:black;
+  border-radius: 10%;
+  border:3px solid black;
+}
+
+
+
+}
+@media screen and (max-width:768px){
+
+  svg {
+    font-family: cursive;
+    position: absolute; 
+    width:70%;
+    height:30% ;
+    transform: translate(20%,100%);
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s ;
+    
+    stroke-width: 2;
+    stroke: #295e4e;
+    font-size: 30vh;
+  }
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgba(54,95,160,1);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 5;
+    }
+    70%  {fill: rgba(146, 179, 122, 0); stroke: rgba(54,95,160,1); }
+    80%  {fill: rgba(156, 177, 140, 0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+    100% {
+      fill: rgb(144, 159, 173); stroke: rgb(99, 142, 161); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
+.wel {
+   position: absolute;
+  height: 100vh; 
+  width: 100vh;
+  padding: 0%;
+  background-size: cover; 
+}
+
+
+.fullscreen-video {
+   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vh;
+  height: 250vh;
+  object-fit: cover;
+  background-repeat: repeat; 
+
+}
+
+.nav {
+  position:absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content:space-around;
+  /* align-items: center; */
+  background-color: rgba(50, 49, 49, 0.5); 
+  color: white;
+  /* margin-left: 0%; */
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(250, 247, 247);
+  font-family: Satisfy;
+  margin-left: 0%;
+  margin-right: 10vh;
+  margin-top: -15%;
+}
+
+.navh1 {
+  cursor: pointer;
+  position: relative;
+  font-family: cursive;
+  margin-top: -15%;
+  /* margin-right: 20vh; */
+}
+.navh1:hover{
+  background-color: whitesmoke;
+  color:black;
+  border-radius: 10%;
+  border:3px solid black;
+}
+
+.navh1div {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 16px;
+  border-radius: 10% 0% 10% 0%;
+  border:3px solid white;
+  margin-top: 2vh;
+}
+
+.navh1div p {
+  cursor: pointer;
+  color: whitesmoke;
+  font-family: cursive;
+}
+
+
+.nav1 {
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  margin-top: -15%;
+  margin-left: 4%;
+}
+
+.navh11 {
+  cursor: pointer;
+  font-family: cursive;
+  justify-content: space-between;
+}
+.navh11:hover{
+  background-color: whitesmoke;
+  color:black;
+  border-radius: 10%;
+  border:3px solid black;
+}
+}

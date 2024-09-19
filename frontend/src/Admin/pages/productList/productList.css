@@ -1,0 +1,54 @@
+.productList {
+    flex: 4;
+    width: 100%;
+    overflow-x: auto; 
+  }
+  
+  .productTable {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .productTable th,
+  .productTable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .productTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .productListItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .productListImg {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .productListEdit,
+  .productListDelete {
+    cursor: pointer;
+    padding: 4px 8px;
+    margin-right: 5px;
+    transform: translateY(-10px);
+  }
+  
+  .productListEdit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  .productListDelete {
+    background-color: #f44336;
+    color: white;
+    border: none;
+  }
+  
